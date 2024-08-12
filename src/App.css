@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.character-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.character-card h3 {
+  margin-top: 0;
+}
+
+.character-card a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.character-card a:hover {
+  text-decoration: underline;
+}
+
+.not-found {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+}
